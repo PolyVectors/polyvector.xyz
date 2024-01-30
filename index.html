@@ -17,27 +17,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
     
-    <title>PolyVector's Portfolio</title>
+    <title>PolyVector</title>
   </head>
 
-  <div class="statistics-box">
-
+  <div class="container">
+    <div class="logo"/>
   </div>
 </html>
 
 <style>
   * {
-    font-family: Hack, monospace; 
+    font-family: Hack, monospace;
+    margin: 0 auto;
   }
 
   body {
-    background-color: #30323D;
-    color: #CDD1C4;
+    background-color: #000000;
   }
 
-  statistics-box {
-    color: black;
-    width: 100%;
-    height: 256px;
+  div.logo {
+    content:url("./images/polyvector.gif")
   }
+
+  .container {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 </style>
